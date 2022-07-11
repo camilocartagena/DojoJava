@@ -94,5 +94,5 @@ Son objetos java, de tipo de referencia. String no es primitivo. Se puede repres
 -	Se debe tener en cuenta en las funciones cuando recibe una secuencia ("") o un caracter o string ('')
 -	Debe cuidarse el manejo de las expresiones regulares en el manejo de metodos de los String 
 
-[Para conocer mas detalle de las expresiones regulares en JAVA](http://www.w3big.com/es/java/java-regular-expressions.html))
+[Para conocer mas detalle de las expresiones regulares en JAVA](http://www.w3big.com/es/java/java-regular-expressions.html)
 
