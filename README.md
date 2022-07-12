@@ -96,3 +96,65 @@ Son objetos java, de tipo de referencia. String no es primitivo. Se puede repres
 
 [Para conocer mas detalle de las expresiones regulares en JAVA](http://www.w3big.com/es/java/java-regular-expressions.html)
 
+# OPERADORES JAVA
+
+JAVA proporciona muchos tipos de operadores que se pueden usar segun la necesidad. Se clasifican segun la funcionalidad que brindan
+
+## ARITMETICOS
+Para realizar operaciones matematicas con tipos de datos primitivos
+- Multiplicacion
+- Division
+- Modulo o resto
+- Suma
+- Resta
+- Incremento
+- Decremento
+- Menos unitario
+
+## COMBINADOS
+Operadores combinados o compuestos: -=. +=, /=. Una version simplificad o mas corta.
+
+a+= 5 es equivalente a a=a+5
+a/=b es equivalente a a=a/b
+
+## INCREMENTO Y DECREMENTO (INCREMENTALES))
+Utilizado para incrementar o decrementar el valor en 1. Hay dos variedaddes de operador de incremento pre y post
+
+++a pre-incremento (incrementa a en uno y luego devuelve a)
+a++ post-incremento (Devuelve a , y luego incrementa a en uno)
+
+--a pre-decremento (decrementa a en uno y luego devuelve a)
+a-- post-decremento (Devuelve a , y luego decrementa a en uno)
+
+## TERNARIO O CONDICIONAL
+- el operador ternario es una version abreviaba de la sentancia if-else
+- Tiene tres operandos y de ahi el nombre ternario
+  (condicion)? valor1 : valor2
+- Si la condicion se cumple devielve el primer valor y en cosa contrario el segund
+
+Ejemplo:
+<code>int a = 2 > 3 ? 1 : 2;</code>
+
+## RELACIONES
+- Se utilizan para comprobar relaciones de igualdad, mayor que o menos que (<,>,<=,==,!=)
+- Devuelven un resultado booleano despues de la comparacion un valor true o false
+- Se utilizan ampliamente en las sentencias if/else asi como en bucles como el for o el while
+
+## LOGICOS
+- Permiten evaluar expresiones logicas y trabajan con operandos booleanos
+- realizan las operaciones logicas de conjuncion (AND && ), disyuncion (OR || )  o negacion (NOT) 
+- Debemos tener en cuenta Xor (verdadero cuando A y B son diferentes)
+
+>Nota: Precedencia de operadores= tiene importnacia el tipo de operacion y la asociatividad (de izquierda a derecha)
+
+## ASIGNACION
+cada vez que asigna un valor a una variable (=)
+
+## UNARIOS
+invertir el signo del valor entero o multiplicar por -1 (-) (+)
+
+OTROS OPERADORES SON
+
+- COMBINADOS
+- DE BITS 
+- DE INSTANCIA
