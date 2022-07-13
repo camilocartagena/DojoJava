@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class OperadoresLogicos {
     public static void main(String[] args) {
 
@@ -28,6 +30,7 @@ public class OperadoresLogicos {
 
         boolean b7 = ((true || false) && false) || false; // true
         System.out.println("b7 = " + b7);
+
     }
 
 }

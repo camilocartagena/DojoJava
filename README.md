@@ -153,6 +153,11 @@ cada vez que asigna un valor a una variable (=)
 ## UNARIOS
 invertir el signo del valor entero o multiplicar por -1 (-) (+)
 
+## INSTANCEOF (TIPO DE)
+Nos permite validar si una instancia es referencia de un tipo o sub tipo
+- Genericos
+- Abstractos
+
 OTROS OPERADORES SON
 
 - COMBINADOS
