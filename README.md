@@ -14,7 +14,7 @@
 - Arreglos y Matrices
 - Clases y objetos
 - Principios POO( Herancia, modularidad )
-- 
+
 ## Avanzados JAVA SE (Estándar Edition)
 - Api de colecciones (Collection, List,Set y Map)
 - Manejo de excepciones
@@ -58,17 +58,20 @@ En Java 10 maneja una variable dinamica var.
 Determina que tipo de valor debe guardarse en la vble.
 Existen dos categorias de datos principales
 
+- Primitivos
+- Referencia
+
 ## Primitivo: contienen un solo valor. Entero,flotante,los caracteres, booleanos
 Referencia: una estructura mas compleja que tiene funciones definidas.
 Java es un 99% orientado a objetos ya que los valores primitivos son valores
-Reglas para definir para una varianble:
+Reglas para definir para una variable:
 -	Debe iniciar en minuscula
 -	No puede tener caracteres especiales (unicore)
 -	No puede ser una plabra reservada del lenguaje o clave
 -	No puede utilizar el nombre de una variable que ya existe en el mismo metodo
 -	Palabras compueras la segunda debe iniciar en mayuscula nombreDato
 -	No puede iniciar en numero.
-- Para variables en español se debe agregar en las preferencias el idioma.
+-  Para variables en español se debe agregar en las preferencias el idioma.
 
 ## TIPOS PRIMITIVOS
 Solo contienen un valor, de tipo de dato escalares. Todos se deben escribir en minuscula.
@@ -163,3 +166,42 @@ OTROS OPERADORES SON
 - COMBINADOS
 - DE BITS 
 - DE INSTANCIA
+
+## FLUJO DE CONTROl o SENTENCIA DE CONTROl
+
+## IF/ELSE
+Ejecuta un bloque de codigo si alguna condicion no se cumple
+
+## SWITH CASE
+- La sentencia Swith o interrumpor se utiliza para realizar sentencias condicionalmente basadas en alguna expresion
+- De acuerdo al valor de la expresion se ejecuta la sentencia case apropiada
+- la expresion debe ser un primitivo o referencia
+
+## SEPARADORES
+# () Se utilizan para:
+- contener condiciones
+- lista de parametros
+- modificar la presencia de los operadores
+- realizar conversiones de tipo.
+
+# {} Se utilizan para:
+- Definir bloques de codigo
+- para crear una arreglo
+
+# {} Se utilizan para:
+- Declarar una arreglo
+- Definir una matriz
+- referencias valores de una matriz
+
+# ; Se utilizan para:
+- separar sentencias
+- encadenar sentencias de un for
+- incrementar variables de control
+
+# , Se utilizan para:
+- separar identificadores consecutivos en la declaracion de variables
+- separar argumentos o parametros
+- 
+# . Se utilizan para:
+- variable de tipo referencia para llamar un metodo
+- separar nombre de paquetes o subpaquetes
