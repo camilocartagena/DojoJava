@@ -205,3 +205,17 @@ Ejecuta un bloque de codigo si alguna condicion no se cumple
 # . Se utilizan para:
 - variable de tipo referencia para llamar un metodo
 - separar nombre de paquetes o subpaquetes
+
+## SENTENCIAS DE BUCLE o SENTENCIA DE CONTROl REPETITIVAS
+
+## WHILE
+Ejecuta un bloque de codigo mientras se cumpla la condicion
+- Es una estructura de interacion precondicion, primero evalua la expresion antes de ejecutar cualquier sentencia
+
+## DO WHILE
+Similar al while, excepto en que la expresion se evalua al final del bucle, se ejecuta al menos una vez
+- Es una estructura de interacion postcondicion, primero se ejecuta la sentenia y al final evaluar la expresion
+
+## FOR
+La sentencia for se utiliza cuando se conocen los limites del bucle
+- Requiere Iniciailizacion ,su condicion de termino y su instruccion de incremento/decremento
