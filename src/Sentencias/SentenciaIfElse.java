@@ -3,7 +3,7 @@ package Sentencias;
 public class SentenciaIfElse {
     public static void main(String[] args) {
 
-        float promedio = 6.2f;
+        float promedio = 3.2f;
         if(promedio >= 6.5){
             System.out.println("Excelente promedio!");
         }else if (promedio >= 6.0){
