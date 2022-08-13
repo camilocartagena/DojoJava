@@ -21,5 +21,8 @@ public class SentenciasNumMenorMultiplesValores {
             }
         }
         System.out.println("El valor menor es: "  + valorMenor);
+
+        String resultado = valorMenor < 10 ? "El numero menor es menor a 10!":"El numero menor es igual o mayor que 10!";
+        System.out.println(resultado);
     }
 }
