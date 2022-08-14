@@ -28,6 +28,7 @@ public class SentenciaWhile {
         do{
             System.out.println("se ejecuta una vez");
         }while(prueba);
+
         prueba = true;
         i=0;
 
