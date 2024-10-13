@@ -1,9 +1,13 @@
 ## DOJO JAVA -  Todo lo que debes saber
+- Designed by: James Gosling 
+- Developer: Oracle Corporation
+- First appeared: May 23, 1995; 29 years ago
+- Paradigm: Multi-paradigm: generic, object-oriented (class-based), functional, imperative, reflective, concurrent
 
 ## Fundamentos JAVA SE (Estándar Edition)
 - Variables
 - Tipos de datos primitivos y referencia
-- Operadores (lógicos)
+- operadores (lógicos)
 - Flujos de control (bucles)
 - Clase String
 - Clases Wrapper ( Envuelven los tipo primitvos)
@@ -13,7 +17,7 @@
 - Date y Calendar
 - Arreglos y Matrices
 - Clases y objetos
-- Principios POO( Herancia, modularidad )
+- Principios POO(herencia, modularidad)
 
 ## Avanzados JAVA SE (Estándar Edition)
 - Api de colecciones (Collection, List,Set y Map)
@@ -42,9 +46,12 @@
 - Sprint 5
 - Struct 2
 
-## Instalación de JDK (Kit de desarrollo – antes del 1.8  se necesitaba  JRE Runtime)
+## Instalación de JDK Java Development Kit (Kit de desarrollo – antes del 1.8  se necesitaba  JRE Runtime)
 - https://www.oracle.com/java/
 - http://jdk.java.net/
+- https://openjdk.org/projects/jdk/
+- Images (Docker)
+    https://hub.docker.com/_/openjdk
 
 ## Crear un nuevo proyecto en IntelliJ IDEA
 https://www.jetbrains.com/help/idea/new-project-wizard.html
@@ -58,7 +65,7 @@ En Java 10 maneja una variable dinamica var.
 Determina que tipo de valor debe guardarse en la vble.
 Existen dos categorias de datos principales
 
-- Primitivos
+- primitivos
 - Referencia
 
 ## Primitivo: contienen un solo valor. Entero,flotante,los caracteres, booleanos
@@ -75,12 +82,12 @@ Reglas para definir para una variable:
 
 ## TIPOS PRIMITIVOS
 Solo contienen un valor, de tipo de dato escalares. Todos se deben escribir en minuscula.
-Primitivos Enteros: son 4 tipos byte,short,int y long. Son enteros del conjunto Z difiere en las precisiones y pyede ser positivo o negativo.
-Primitivos  Flotante: para guardar numeros reales en forma flotante con precision realFloat(f) y realDoble(d).
+primitivos Enteros: son 4 tipos byte,short,int y long. Son enteros del conjunto Z difiere en las precisiones y pyede ser positivo o negativo.
+primitivos  Flotante: para guardar numeros reales en forma flotante con precision realFloat(f) y realDoble(d).
 
--	Primitivos Carácter: usa el codigo UNICODE y ocupa cada carácter 16 bits
+-	primitivos Carácter: usa el codigo UNICODE y ocupa cada carácter 16 bits
 
--	Primitivos  Boleano: un solo bit true/false
+-	primitivos  Boleano: un solo bit true/false
 
 ## SISTEMAS NUMERICOS
 Contiene los binarios, octales y hexadecimales
@@ -115,7 +122,7 @@ Para realizar operaciones matematicas con tipos de datos primitivos
 - Menos unitario
 
 ## COMBINADOS
-Operadores combinados o compuestos: -=. +=, /=. Una version simplificad o mas corta.
+operadores combinados o compuestos: -=. +=, /=. Una version simplificad o mas corta.
 
 a+= 5 es equivalente a a=a+5
 a/=b es equivalente a a=a/b
@@ -219,3 +226,9 @@ Similar al while, excepto en que la expresion se evalua al final del bucle, se e
 ## FOR
 La sentencia for se utiliza cuando se conocen los limites del bucle
 - Requiere Iniciailizacion ,su condicion de termino y su instruccion de incremento/decremento
+
+## WRAPPER (Clase de envoltorio)
+Envuelven, anidas este primitivo para dar mayor funcionalidad, metodo de comprobacion, metodos para validar y conversion de datos a tipos compatibles
+
+
+
